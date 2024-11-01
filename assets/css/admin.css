@@ -1,0 +1,350 @@
+/*! 
+TRACKO | opensource.org/licenses/MIT 
+*/
+
+
+
+*{
+    font-size: 14px;
+}
+
+.tracko-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    font-size: 12px;
+}
+.tracko-row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.tracko-col-md{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 33%;
+    float: left;
+}
+
+.tracko-col-md img{
+    width:100px;
+}
+
+.div_box{
+    border-radius: 2px;min-height: 50px; background-color: #f1f6f7;margin: auto;box-shadow: 2px 2px 5px grey;
+    margin-top: 10px;
+}
+
+.div_box table{
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 16px;
+    display: table;
+    border-color: grey;
+}
+
+.div_box table tr {
+    background: white;
+    border: 0; 
+
+}
+
+.div_box table td{
+    padding: 0px;
+    padding-left: 12px;
+}
+
+.visit {
+    background: #f85252;
+    color: white;
+}
+
+.form_detail{
+    width: 100%; 
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+.form_detail tr{
+    width: 100%; 
+}
+.form_detail tr td{
+    width: 350px;
+    height: 60px;
+    padding-top: 5px;
+}
+.form_detail tr .td_odd{
+    text-align: right;
+    padding-top: 10px;
+}
+.form_detail tr td .td_even{
+     float: right;
+    padding-right: 0px;
+    width: 350px;
+}
+.container-fluid.full-width_a {
+    background: #f1f6f7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 570px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tracko-container.wrk_head {
+    padding: 0px 190px !important;
+}
+.tracko-container.wrk_head h2 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    font-family: azo-sans-web;
+}
+.tracko-container.article_a .col-md-4 img {
+    max-width: 90px;
+}
+
+.tracko-container.article_a h1 {
+    text-align: center;
+}
+.tracko-container.article_a h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin:auto;
+}
+
+table p {
+    font-size: 14px;
+}
+a {
+    color: #337ab7;
+    font-size: 14px;
+    font-weight: unset;
+    text-decoration: none;
+}
+
+.blue{
+    background-color: #0099ff; position: relative;  
+}
+
+.heading{
+    font-size: 20px;margin-left: 30px;color: white;top: 10px;position: absolute;
+}
+
+
+.tracko-container {
+    margin: 10px 20px 0 2px
+}
+.tracko-container .inside {
+    font-size: 13px;
+    line-height: 1.4em
+}
+.tracko-container h1 {
+    color: #333;
+    text-shadow: 1px 1px 1px #FFF;
+    font-size: 2.8em;
+    font-weight: 200;
+    line-height: 1.2em;
+    margin: .2em 200px .6em .2em
+}
+.tracko-container h2 .nav-tab {
+    color: #21759B
+}
+.tracko-container h2 .nav-tab-active {
+    color: #464646;
+    text-shadow: 1px 1px 1px #FFF
+}
+.tracko-container hr {
+    border-color: #EEE;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    margin: 2px 0 15px
+}
+.tracko-container h3,
+.tracko-container h3 label {
+    cursor: default
+}
+.tracko-container p {
+    line-height: 1.8em
+}
+.tracko-container .trackopre {
+    font-size: 14m;
+    border: 1px solid #E6DB55;
+    border-radius: 3px;
+    padding: 5px;
+    width: 650px
+}
+.tracko-container ul {
+    list-style: disc
+}
+.thumbnails:after,
+.thumbnails:before {
+    display: table;
+    line-height: 0;
+    content: ""
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .055);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .055);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .055);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+a.thumbnail:hover {
+    border-color: #08c;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, .25);
+    -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, .25);
+    box-shadow: 0 1px 4px rgba(0, 105, 214, .25)
+}
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #555
+}
+.tracko-container .span4 {
+    width: 220px
+}
+.tracko_connect_with_provider {
+    text-decoration: none;
+    cursor: not-allowed
+}
+#tracko-w-panel {
+    background: linear-gradient(to top, #F5F5F5, #FAFAFA) #F5F5F5;
+    border-color: #DFDFDF;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 5px;
+    position: relative
+}
+#tracko-w-panel-dismiss:before {
+    content: " ";
+    height: 100%;
+    left: -12px;
+    position: absolute;
+    width: 10px;
+    margin: -2px 0
+}
+#tracko-w-panel-dismiss:hover:before {
+    background-position: 100% 17%
+}
+#tracko-w-panel-dismiss {
+    font-size: 13px;
+    line-height: 1;
+    padding: 8px 3px;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    top: 0
+}
+#tracko-w-panel-updates-tr {
+    display: none
+}
+.wp-editor-textarea {
+    width: 98%;
+    padding: 1%;
+    font-family: "Trebuchet MS", Arial, verdana, sans-serif
+}
+.wp-editor-textarea textarea {
+    height: 100px
+}
+.wp-editor-textarea input {
+    width: auto!important
+}
+#tracko_div_warn {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 55%;
+    margin: 30px auto 0
+}
+.tracko-container .button-danger {
+    background-color: #da4f49;
+    background-image: linear-gradient(to bottom, #ce3f38, #bd362f);
+    border-color: #bd362f;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    font-size: 13px;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    white-space: nowrap
+}
+.tracko-container .button-danger:focus,
+.tracko-container .button-danger:hover {
+    background: #d3534c;
+    border-color: #ce3f38;
+    -webkit-box-shadow: inset 0 1px 0 rgba(206, 63, 56, .6);
+    box-shadow: inset 0 1px 0 rgba(206, 63, 56, .6);
+    color: #fff
+}
+.tracko_component_div {
+    width: 30%;
+    min-height: 140px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative
+}
+.tracko_component_div h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 0
+}
+.tracko_component_about_div {
+    height: 2px;
+    overflow: hidden;
+    min-height: 93px
+}
+.toplevel_page_wordpress-tracko .wp-menu-image img {
+    padding: 2px 0 0 !important;
+}
+.current.toplevel_page_wordpress-tracko-store .wp-menu-image img {
+    display: none;
+}
+.toplevel_page_wordpress-tracko .wp-menu-image {
+    padding-left: 2px;
+}
+.current.toplevel_page_wordpress-tracko .wp-menu-image {
+    background-image: url('../img/trackotore-active.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
